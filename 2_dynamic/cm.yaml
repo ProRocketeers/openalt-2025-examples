@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bed-config
+  namespace: yokecd
+data:
+  config: '{"one": { "replicas": 1 }, "two": { "replicas": 2 }}'

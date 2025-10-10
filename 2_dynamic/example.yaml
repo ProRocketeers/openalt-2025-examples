@@ -1,0 +1,7 @@
+apiVersion: yoke.examples/v1
+kind: BackendDynamic
+metadata:
+  name: nginx
+  namespace: yokecd
+spec:
+  configMapName: bed-config
