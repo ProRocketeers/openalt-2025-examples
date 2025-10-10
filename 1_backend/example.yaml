@@ -1,0 +1,9 @@
+apiVersion: yoke.examples/v1
+kind: Backend
+metadata:
+  name: nginx
+  namespace: yokecd
+spec:
+  image: nginx:latest
+  replicas: 1
+  port: 80
