@@ -1,0 +1,5 @@
+name: my-app
+namespace: ns
+replicas: 1
+image: nginx:latest
+port: 80
